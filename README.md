@@ -1,1 +1,1 @@
-# challenge Oracle-ONE -Sprint2-Juego de ahorcado
+# Challenge Oracle-ONE -Sprint2-Juego de ahorcado
