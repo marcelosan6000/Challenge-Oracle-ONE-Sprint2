@@ -1,0 +1,215 @@
+body{
+    display:flexbox;
+    width: 1400px;
+    height: 60px;
+    background: linear-gradient(90deg,#242323, #a9aab3);
+   
+    align-content: center;
+}
+#titulo{
+    font-size: 65px;
+    font-family:'Creepster', cursive;
+    margin:  20px 0 50px 50px;
+    text-align: left;
+    color: rgb(255, 0, 0);
+    text-shadow: rgb(170, 77, 31) 5px 5px;
+   padding: 0;
+
+}
+
+#status{
+    height: 100px;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin:  -80px 0 50px 700px;
+    text-align: center;
+    color: rgb(48, 192, 65);
+    text-shadow: rgb(22, 22, 21) 2px 2px;
+    padding: 0;
+   
+  }
+
+
+#boton1{
+    margin: 20px auto 0 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background: green;
+}
+
+
+#boton2{
+    margin: 20px auto 0 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#boton3{
+    margin: 20px auto 0 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+#nuevapalabra{/*Campo de texto para agregar palabra nueva*/
+    visibility: hidden;
+   font-size: 25px;
+   text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+   text-transform: uppercase;
+    width: 250px;
+    margin: 20px auto 0 170px;
+}
+#boton4{/*Boton para agregar palabra nueva*/
+    visibility: hidden;
+    margin: 20px auto 0 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: coral;
+ }
+
+
+
+#botones :hover{
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+
+
+#imagen{
+    margin: 0 0 0 1250px ;
+    position:absolute;
+}
+#horca{
+    width: 350px;
+    height: 500px;
+    margin: 0 0 0 0 ;
+   
+}
+
+
+
+#entrada{
+ 
+   visibility: hidden;
+}
+#acierto{
+    visibility: hidden;
+}
+#error{
+    visibility: hidden;
+}
+
+
+/*palabra oculta*/
+.Oculta {
+    font-family: monospace;
+    background-color: rgb(0, 0, 255);
+    text-align:center;
+    display:inline;
+    width: 20px;
+    height: 20px;
+    margin: 350px 2px 0 2px;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    border-style: 1px solid black;
+    border-radius: 10px;
+    color: rgb(0, 0, 255);
+    position:sticky;
+}
+#Div0{
+    margin-left: 0;
+    
+}
+
+
+
+/*-----POSICION BOTONES------------------------------------------------------*/
+#teclado1{
+    width: 500px;
+    margin: 150px 0 0 250px ;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+   
+}
+#teclado2{
+    width: 500px;
+    margin: 0 0 0 250px ;
+    padding: 5px;
+    text-align: center;
+    
+}
+#teclado3{
+    width: 500px;
+    margin: 0 0 0 250px ;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+/*-----TAMAÑO BOTONES------------------------------------------------------*/
+#teclado1 .tecla{
+    font-family:'Courier New', Courier, monospace;
+    width: 50px;
+    height: 50px; 
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 0 0 2px 2px grey;
+}
+#teclado2 .tecla{
+    font-family:'Courier New', Courier, monospace;
+    width: 50px;
+    height: 50px; 
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 0 0 2px 2px grey;
+}
+#teclado3 .tecla{
+    font-family:'Courier New', Courier, monospace;
+    width: 50px;
+    height: 50px; 
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 0 0 2px 2px grey;
+}
+/*-----HOOVER------------------------------------------------------*/
+#teclado1 .tecla:hover{
+    background-color: chartreuse;
+}
+#teclado2 .tecla:hover{
+    background-color: chartreuse;
+}
+#teclado3 .tecla:hover{
+    background-color: chartreuse;
+}
+footer{
+    display: block;
+    text-align: center;
+    margin: 80px 0 0 550px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: rgb(122, 151, 124) 2px 2px;
+
+}
