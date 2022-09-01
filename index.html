@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Rubik+Distressed&display=swap" rel="stylesheet">
+    <title>Alura - Juego del Ahorcado</title>
+</head>
+<body id="body">
+
+        
+        <div id="titulo"><h1>Juego del ahorcado</h1></div>
+        <div id="status"></div>
+       
+        <input type="text" id="entrada">
+        <input type="text" id="acierto">
+        <input type="text" id="error">
+
+    <div  id="imagen"><img id="horca" src="img/inicio.svg" alt="-----"></div>
+
+    <div id="teclado1">
+        <button  onclick ="teclaA()" class="tecla" id="t1">A</button>
+        <button  onclick ="teclaB()" class="tecla" id="t2">B</button>
+        <button  onclick ="teclaC()" class="tecla" id="t3">C</button>
+        <button  onclick ="teclaD()" class="tecla" id="t4">D</button>
+        <button  onclick ="teclaE()" class="tecla" id="t5">E</button>
+        <button  onclick ="teclaF()" class="tecla" id="t6">F</button>
+        <button  onclick ="teclaG()" class="tecla" id="t7">G</button>
+        <button  onclick ="teclaH()" class="tecla" id="t8">H</button>
+        <button  onclick ="teclaI()" class="tecla" id="t9">I</button>
+    </div>
+
+    <div id="teclado2">
+        <button  onclick ="teclaJ()" class="tecla" id="t10">J</button>
+        <button  onclick ="teclaK()" class="tecla" id="t11">K</button>
+        <button  onclick ="teclaL()" class="tecla" id="t12">L</button>
+        <button  onclick ="teclaM()" class="tecla" id="t13">M</button>
+        <button  onclick ="teclaN()" class="tecla" id="t14">N</button>
+        <button  onclick ="teclaÑ()" class="tecla" id="t15">Ñ</button>
+        <button  onclick ="teclaO()" class="tecla" id="t16">O</button>
+        <button  onclick ="teclaP()" class="tecla" id="t17">P</button>
+        <button  onclick ="teclaQ()" class="tecla" id="t18">Q</button>
+    </div>
+
+    <div id="teclado3">
+        <button  onclick ="teclaR()" class="tecla" id="t19">R</button>
+        <button  onclick ="teclaS()" class="tecla" id="t20">S</button>
+        <button  onclick ="teclaT()" class="tecla" id="t21">T</button>
+        <button  onclick ="teclaU()" class="tecla" id="t22">U</button>
+        <button  onclick ="teclaV()" class="tecla" id="t23">V</button>
+        <button  onclick ="teclaW()" class="tecla" id="t24">W</button>
+        <button  onclick ="teclaX()" class="tecla" id="t25">X</button>
+        <button  onclick ="teclaY()" class="tecla" id="t26">Y</button>
+        <button  onclick ="teclaZ()" class="tecla" id="t27">Z</button>
+        
+    </div>
+    <br>
+    <br>
+    <div id="botones">
+        <button id="boton3" onclick="agregarPalabra()">Agregar palabra</button>
+        <button id="boton2" onclick="recargar()">Reiniciar juego</button>
+        <button class="animacion" id="boton1" onclick="crearPalabra()">Iniciar juego</button>
+    </div>
+    <div class="otraPalabra"><input type="text" name="" id="nuevapalabra"></div>
+    <div class="otraPalabra"> <button id="boton4" onclick="botonAgregarPalabra()">Agregar</button></div>
+
+
+
+
+    <script src="escript.js"></script>
+
+</body>
+<footer>
+    <img src="img/alura_oracle.svg" />
+    <p>&copy 2022 - ONE -@ Adrian Marcelo Sanchez -</p>
+    <a href="mailto:marcelosan6000@gmail.com">marcelosan6000@gmail.com</a></p>
+  </footer>
+</html>
