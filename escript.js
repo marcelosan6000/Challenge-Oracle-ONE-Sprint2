@@ -633,7 +633,7 @@ function conteoLetras(){
 
 //---------------Sonidos-------------------------------------------------------------------------------
 function sonido_error(){
-    const music = new Audio('audio/errado.wav');
+    const music = new Audio('audio/errado.mp3');
     music.play();
 }
 function sonido_click(){
