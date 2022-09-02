@@ -670,13 +670,15 @@ function botonAgregarPalabra(){
     }
     if(nueva !==""){
            palabra.push(nueva);
+     document.getElementById("boton4").style.visibility="hidden";
+    document.getElementById("nuevapalabra").style.visibility="hidden";
+    document.getElementById("boton1").style.visibility="visible";   
+        
     }
  
 
    
 
-    document.getElementById("boton4").style.visibility="hidden";
-    document.getElementById("nuevapalabra").style.visibility="hidden";
-    document.getElementById("boton1").style.visibility="visible";
+    
 
 }
