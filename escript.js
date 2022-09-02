@@ -3,11 +3,14 @@ var error;
 var err;
 var palabraVista;
 var letrasFaltantes;
-const palabra=['MOLUSCO','AUTOMOVIL','ASTEROIDE','PARALELEPIPEDO','MANZANA','ACRONIMO','LUCIERNAGA','MURCIELAGO','ORNITORRINCO','BUFALO','COCODRILO','PLANTIGRADO','AUTOPISTA','PARTICULA','MONOSILABO'];
+//const palabra=['MOLUSCO','AUTOMOVIL','ASTEROIDE','PARALELEPIPEDO','MANZANA','ACRONIMO','LUCIERNAGA','MURCIELAGO','ORNITORRINCO','BUFALO','COCODRILO','PLANTIGRADO','AUTOPISTA','PARTICULA','MONOSILABO'];
+const palabra=[];
+
 //--------------------------------------------------------------------------
 
 function recargar(){
     location.reload();
+    document.getElementById("boton1").style.visibility="hidden";
     document.getElementById("acierto").style.visibility="hidden";
     document.getElementById("error").style.visibility="hidden";
     document.getElementById("entrada").style.visibility="hidden";
@@ -38,6 +41,7 @@ function crearPalabra(){
         newDiv.appendChild(newContent); //añade guion al div creado.
         newDiv.setAttribute("class","Oculta");
         newDiv.setAttribute("id","Div"+i);
+        newDiv.setAttribute("aria-placeholder","_");
         // añade el elemento creado y su contenido al DOM
         var currentDiv = document.getElementById("teclado1");
         document.body.insertBefore(newDiv, currentDiv);
@@ -47,6 +51,7 @@ function crearPalabra(){
         document.getElementById("error").value= error;
 }
         document.getElementById("boton1").style.visibility="hidden";
+        document.getElementById("boton2").style.visibility="visible";
 
 }
 //---------------------------------------------------------------------------
@@ -666,4 +671,6 @@ function botonAgregarPalabra(){
 
     document.getElementById("boton4").style.visibility="hidden";
     document.getElementById("nuevapalabra").style.visibility="hidden";
+    document.getElementById("boton1").style.visibility="visible";
+
 }
