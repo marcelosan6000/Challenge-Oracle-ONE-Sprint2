@@ -665,9 +665,15 @@ function agregarPalabra(){
 function botonAgregarPalabra(){ 
     var nueva = document.getElementById("nuevapalabra").value;
     nueva = nueva.toUpperCase();
-    palabra.push(nueva);
+    if(nueva ==""){
+        alert("Debes ingresar una palabra !!!");
+    }
+    if(nueva !==""){
+           palabra.push(nueva);
+    }
+ 
 
-    console.log(palabra[11], nueva);
+   
 
     document.getElementById("boton4").style.visibility="hidden";
     document.getElementById("nuevapalabra").style.visibility="hidden";
