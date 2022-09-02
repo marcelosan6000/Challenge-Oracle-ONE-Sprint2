@@ -1,0 +1,226 @@
+body{
+    display:flexbox;
+    width: 1400px;
+    height: 60px;
+    background: linear-gradient(90deg,#242323, #a9aab3);
+   
+    align-content: left;
+}
+#banner{
+margin:  20px 0 100px 20px;
+height: 30px;
+    
+}
+#titulo{
+    font-size: 40px;
+    font-family:'Creepster', cursive;
+    margin:  0 0 0 50px;
+    text-align: left;
+    color: rgb(255, 0, 0);
+    text-shadow: rgb(0, 0, 0) 5px 5px;
+   padding: 0;
+
+}
+
+#status{
+    height: 100px;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin:  0 0 0 80px;
+    text-align: center;
+    color: rgb(48, 192, 65);
+    text-shadow: rgb(22, 22, 21) 2px 2px;
+    padding: 0;
+   
+}
+#boton1{
+    visibility: hidden;
+    margin: 20px auto 0 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background: green;
+}
+#boton2{
+    visibility: hidden;
+    margin: 20px auto 0 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+#boton3{
+    margin: 20px auto 0 110px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+#nuevapalabra{/*Campo de texto para agregar palabra nueva*/
+    visibility: hidden;
+   font-size: 16px;
+   text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+   text-transform: uppercase;
+    width: 160px;
+    margin: 20px auto 0 100px;
+}
+#boton4{/*Boton para agregar palabra nueva*/
+    visibility: hidden;
+    margin: 20px auto 0 110px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: coral;
+ }
+
+
+
+#botones :hover{
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+
+
+#imagen{
+    margin: -50px 0 0 750px ;
+    position:absolute;
+}
+#horca{
+    width: 350px;
+    height: 500px;
+    margin: 0 0 0 0 ;
+   
+}
+
+
+
+#entrada{
+ 
+   visibility: hidden;
+}
+#acierto{
+    visibility: hidden;
+}
+#error{
+    visibility: hidden;
+}
+
+
+/*palabra oculta*/
+.Oculta {
+    font-family: monospace;  
+    
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(0, 0, 255);
+    display: inline;
+    width: 100px;
+    height: 100px;
+    margin: 350px 2px 0 2px;
+    padding: 5px;
+
+    border-style: 1px solid black;
+    border-radius: 5px;
+    color: rgb(0, 0, 255);
+    position: relative;
+    top: 30px; left: -300px;right: 40px;
+}
+#Div0{
+    width: 100px;
+    height: 100px;
+    
+    
+    
+}
+
+
+
+/*-----POSICION BOTONES------------------------------------------------------*/
+#teclado1{
+    width: 500px;
+    margin: 100px 0 0 100px ;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+   
+}
+#teclado2{
+    width: 500px;
+    margin: 0 0 0 100px ;
+    padding: 5px;
+    text-align: center;
+    
+}
+#teclado3{
+    width: 500px;
+    margin: 0 0 0 100px ;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+/*-----TAMAÑO BOTONES------------------------------------------------------*/
+#teclado1 .tecla{
+    font-family:'Courier New', Courier, monospace;
+    width: 45px;
+    height: 45px; 
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 0 0 2px 2px grey;
+}
+#teclado2 .tecla{
+    font-family:'Courier New', Courier, monospace;
+    width: 45px;
+    height: 45px; 
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 0 0 2px 2px grey;
+}
+#teclado3 .tecla{
+    font-family:'Courier New', Courier, monospace;
+    width: 45px;
+    height: 45px; 
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 0 0 2px 2px grey;
+}
+/*-----HOOVER------------------------------------------------------*/
+#teclado1 .tecla:hover{
+    background-color: chartreuse;
+}
+#teclado2 .tecla:hover{
+    background-color: chartreuse;
+}
+#teclado3 .tecla:hover{
+    background-color: chartreuse;
+}
+footer{
+    display: inline-block;
+    text-align: center;
+    margin: -50px 0 0 550px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: rgb(122, 151, 124) 2px 2px;
+    font-size: 10px;
+
+}
+footer #copy #mail{
+    font-size: 10px;
+}
