@@ -3,8 +3,8 @@ var error;
 var err;
 var palabraVista;
 var letrasFaltantes;
-//const palabra=['MOLUSCO','AUTOMOVIL','ASTEROIDE','PARALELEPIPEDO','MANZANA','ACRONIMO','LUCIERNAGA','MURCIELAGO','ORNITORRINCO','BUFALO','COCODRILO','PLANTIGRADO','AUTOPISTA','PARTICULA','MONOSILABO'];
-const palabra=[];
+const palabra=['MOLUSCO','AUTOMOVIL','ASTEROIDE','PARALELEPIPEDO','MANZANA','ACRONIMO','LUCIERNAGA','MURCIELAGO','ORNITORRINCO','BUFALO','COCODRILO','PLANTIGRADO','AUTOPISTA','PARTICULA','MONOSILABO'];
+//const palabra=[];
 
 //--------------------------------------------------------------------------
 
